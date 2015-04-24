@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60FAAFC41AEA6F8E001662F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FAAFC31AEA6F8E001662F1 /* main.m */; };
+		60FAAFC71AEA6F8E001662F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FAAFC61AEA6F8E001662F1 /* AppDelegate.m */; };
+		60FAAFCA1AEA6F8E001662F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FAAFC91AEA6F8E001662F1 /* ViewController.m */; };
+		60FAAFCD1AEA6F8E001662F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60FAAFCB1AEA6F8E001662F1 /* Main.storyboard */; };
+		60FAAFCF1AEA6F8E001662F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60FAAFCE1AEA6F8E001662F1 /* Images.xcassets */; };
+		60FAAFD21AEA6F8E001662F1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60FAAFD01AEA6F8E001662F1 /* LaunchScreen.xib */; };
+		60FAAFDE1AEA6F8E001662F1 /* POCMobilePaymentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FAAFDD1AEA6F8E001662F1 /* POCMobilePaymentTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60FAAFD81AEA6F8E001662F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60FAAFB61AEA6F8D001662F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60FAAFBD1AEA6F8D001662F1;
+			remoteInfo = POCMobilePayment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60FAAFBE1AEA6F8D001662F1 /* POCMobilePayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCMobilePayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FAAFC21AEA6F8E001662F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60FAAFC31AEA6F8E001662F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60FAAFC51AEA6F8E001662F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60FAAFC61AEA6F8E001662F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60FAAFC81AEA6F8E001662F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60FAAFC91AEA6F8E001662F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60FAAFCC1AEA6F8E001662F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60FAAFCE1AEA6F8E001662F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60FAAFD11AEA6F8E001662F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		60FAAFD71AEA6F8E001662F1 /* POCMobilePaymentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCMobilePaymentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FAAFDC1AEA6F8E001662F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60FAAFDD1AEA6F8E001662F1 /* POCMobilePaymentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POCMobilePaymentTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60FAAFBB1AEA6F8D001662F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FAAFD41AEA6F8E001662F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60FAAFB51AEA6F8D001662F1 = {
+			isa = PBXGroup;
+			children = (
+				60FAAFC01AEA6F8D001662F1 /* POCMobilePayment */,
+				60FAAFDA1AEA6F8E001662F1 /* POCMobilePaymentTests */,
+				60FAAFBF1AEA6F8D001662F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60FAAFBF1AEA6F8D001662F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60FAAFBE1AEA6F8D001662F1 /* POCMobilePayment.app */,
+				60FAAFD71AEA6F8E001662F1 /* POCMobilePaymentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60FAAFC01AEA6F8D001662F1 /* POCMobilePayment */ = {
+			isa = PBXGroup;
+			children = (
+				60FAAFC51AEA6F8E001662F1 /* AppDelegate.h */,
+				60FAAFC61AEA6F8E001662F1 /* AppDelegate.m */,
+				60FAAFC81AEA6F8E001662F1 /* ViewController.h */,
+				60FAAFC91AEA6F8E001662F1 /* ViewController.m */,
+				60FAAFCB1AEA6F8E001662F1 /* Main.storyboard */,
+				60FAAFCE1AEA6F8E001662F1 /* Images.xcassets */,
+				60FAAFD01AEA6F8E001662F1 /* LaunchScreen.xib */,
+				60FAAFC11AEA6F8D001662F1 /* Supporting Files */,
+			);
+			path = POCMobilePayment;
+			sourceTree = "<group>";
+		};
+		60FAAFC11AEA6F8D001662F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60FAAFC21AEA6F8E001662F1 /* Info.plist */,
+				60FAAFC31AEA6F8E001662F1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FAAFDA1AEA6F8E001662F1 /* POCMobilePaymentTests */ = {
+			isa = PBXGroup;
+			children = (
+				60FAAFDD1AEA6F8E001662F1 /* POCMobilePaymentTests.m */,
+				60FAAFDB1AEA6F8E001662F1 /* Supporting Files */,
+			);
+			path = POCMobilePaymentTests;
+			sourceTree = "<group>";
+		};
+		60FAAFDB1AEA6F8E001662F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60FAAFDC1AEA6F8E001662F1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60FAAFBD1AEA6F8D001662F1 /* POCMobilePayment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FAAFE11AEA6F8E001662F1 /* Build configuration list for PBXNativeTarget "POCMobilePayment" */;
+			buildPhases = (
+				60FAAFBA1AEA6F8D001662F1 /* Sources */,
+				60FAAFBB1AEA6F8D001662F1 /* Frameworks */,
+				60FAAFBC1AEA6F8D001662F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POCMobilePayment;
+			productName = POCMobilePayment;
+			productReference = 60FAAFBE1AEA6F8D001662F1 /* POCMobilePayment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60FAAFD61AEA6F8E001662F1 /* POCMobilePaymentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FAAFE41AEA6F8E001662F1 /* Build configuration list for PBXNativeTarget "POCMobilePaymentTests" */;
+			buildPhases = (
+				60FAAFD31AEA6F8E001662F1 /* Sources */,
+				60FAAFD41AEA6F8E001662F1 /* Frameworks */,
+				60FAAFD51AEA6F8E001662F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60FAAFD91AEA6F8E001662F1 /* PBXTargetDependency */,
+			);
+			name = POCMobilePaymentTests;
+			productName = POCMobilePaymentTests;
+			productReference = 60FAAFD71AEA6F8E001662F1 /* POCMobilePaymentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60FAAFB61AEA6F8D001662F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = LuizaLabs;
+				TargetAttributes = {
+					60FAAFBD1AEA6F8D001662F1 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					60FAAFD61AEA6F8E001662F1 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 60FAAFBD1AEA6F8D001662F1;
+					};
+				};
+			};
+			buildConfigurationList = 60FAAFB91AEA6F8D001662F1 /* Build configuration list for PBXProject "POCMobilePayment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60FAAFB51AEA6F8D001662F1;
+			productRefGroup = 60FAAFBF1AEA6F8D001662F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60FAAFBD1AEA6F8D001662F1 /* POCMobilePayment */,
+				60FAAFD61AEA6F8E001662F1 /* POCMobilePaymentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60FAAFBC1AEA6F8D001662F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FAAFCD1AEA6F8E001662F1 /* Main.storyboard in Resources */,
+				60FAAFD21AEA6F8E001662F1 /* LaunchScreen.xib in Resources */,
+				60FAAFCF1AEA6F8E001662F1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FAAFD51AEA6F8E001662F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60FAAFBA1AEA6F8D001662F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FAAFCA1AEA6F8E001662F1 /* ViewController.m in Sources */,
+				60FAAFC71AEA6F8E001662F1 /* AppDelegate.m in Sources */,
+				60FAAFC41AEA6F8E001662F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FAAFD31AEA6F8E001662F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FAAFDE1AEA6F8E001662F1 /* POCMobilePaymentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60FAAFD91AEA6F8E001662F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60FAAFBD1AEA6F8D001662F1 /* POCMobilePayment */;
+			targetProxy = 60FAAFD81AEA6F8E001662F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60FAAFCB1AEA6F8E001662F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60FAAFCC1AEA6F8E001662F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60FAAFD01AEA6F8E001662F1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60FAAFD11AEA6F8E001662F1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60FAAFDF1AEA6F8E001662F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60FAAFE01AEA6F8E001662F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60FAAFE21AEA6F8E001662F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = POCMobilePayment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60FAAFE31AEA6F8E001662F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = POCMobilePayment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		60FAAFE51AEA6F8E001662F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = POCMobilePaymentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCMobilePayment.app/POCMobilePayment";
+			};
+			name = Debug;
+		};
+		60FAAFE61AEA6F8E001662F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = POCMobilePaymentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCMobilePayment.app/POCMobilePayment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60FAAFB91AEA6F8D001662F1 /* Build configuration list for PBXProject "POCMobilePayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FAAFDF1AEA6F8E001662F1 /* Debug */,
+				60FAAFE01AEA6F8E001662F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FAAFE11AEA6F8E001662F1 /* Build configuration list for PBXNativeTarget "POCMobilePayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FAAFE21AEA6F8E001662F1 /* Debug */,
+				60FAAFE31AEA6F8E001662F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60FAAFE41AEA6F8E001662F1 /* Build configuration list for PBXNativeTarget "POCMobilePaymentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FAAFE51AEA6F8E001662F1 /* Debug */,
+				60FAAFE61AEA6F8E001662F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60FAAFB61AEA6F8D001662F1 /* Project object */;
+}
