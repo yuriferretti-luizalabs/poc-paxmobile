@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ProductCollectionViewController.h
 //  POCMobilePayment
 //
 //  Created by Yuri Ferretti on 4/24/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ProductCollectionViewController : UICollectionViewController
 
 @end
-

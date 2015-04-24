@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "StoneSDK/Header/StoneSDK.h"
+#import "Transaction.h"
 
 @interface AppDelegate ()
 
@@ -40,6 +42,25 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    
+    NSString *decodedURL = [url.absoluteString stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+
+    if (!decodedURL) {
+        return YES;
+    }
+    
+    StoneSDK *stone = [[StoneSDK alloc]init:decodedURL];
+    
+    NSLog(@"Valor --> %@", stone.str_amount);
+    NSLog(@"ID da Compra --> %@", stone.str_idOrder);
+    NSLog(@"Status da Compra --> %@", stone.str_Status);
+    
+    [[NSNotificationCenter defaultCenter]postNotificationName:TransactionDidProccessNotification object:nil userInfo:@{@"object": stone}];
+    
+    return YES;
 }
 
 @end

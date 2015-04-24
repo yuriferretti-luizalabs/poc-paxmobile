@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		602BF9991AEA934E0022CAA1 /* tv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 602BF9951AEA934E0022CAA1 /* tv.jpg */; };
+		602BF99A1AEA934E0022CAA1 /* secador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 602BF9961AEA934E0022CAA1 /* secador.jpg */; };
+		602BF99B1AEA934E0022CAA1 /* pendrive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 602BF9971AEA934E0022CAA1 /* pendrive.jpg */; };
+		602BF99F1AEA93690022CAA1 /* awp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 602BF99E1AEA93690022CAA1 /* awp.jpg */; };
+		602BF9A31AEAA4980022CAA1 /* ProductStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 602BF9A21AEAA4980022CAA1 /* ProductStore.m */; };
+		602BF9A81AEAA7500022CAA1 /* ProductCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 602BF9A61AEAA7500022CAA1 /* ProductCollectionViewCell.m */; };
+		602BF9A91AEAA7500022CAA1 /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 602BF9A71AEAA7500022CAA1 /* ProductCollectionViewCell.xib */; };
+		602BF9B01AEAB7AA0022CAA1 /* ProductCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602BF9AF1AEAB7AA0022CAA1 /* ProductCollectionViewController.m */; };
 		60FAAFC41AEA6F8E001662F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FAAFC31AEA6F8E001662F1 /* main.m */; };
 		60FAAFC71AEA6F8E001662F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FAAFC61AEA6F8E001662F1 /* AppDelegate.m */; };
-		60FAAFCA1AEA6F8E001662F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FAAFC91AEA6F8E001662F1 /* ViewController.m */; };
 		60FAAFCD1AEA6F8E001662F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60FAAFCB1AEA6F8E001662F1 /* Main.storyboard */; };
 		60FAAFCF1AEA6F8E001662F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60FAAFCE1AEA6F8E001662F1 /* Images.xcassets */; };
 		60FAAFD21AEA6F8E001662F1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60FAAFD01AEA6F8E001662F1 /* LaunchScreen.xib */; };
 		60FAAFDE1AEA6F8E001662F1 /* POCMobilePaymentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FAAFDD1AEA6F8E001662F1 /* POCMobilePaymentTests.m */; };
+		60FAAFEB1AEA70DD001662F1 /* libStoneSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FAAFEA1AEA70DD001662F1 /* libStoneSDK.a */; };
+		60FAAFEE1AEA7391001662F1 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FAAFED1AEA7391001662F1 /* Product.m */; };
+		60FAAFF11AEA74EE001662F1 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FAAFF01AEA74EE001662F1 /* Transaction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +37,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		602BF9951AEA934E0022CAA1 /* tv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tv.jpg; sourceTree = "<group>"; };
+		602BF9961AEA934E0022CAA1 /* secador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secador.jpg; sourceTree = "<group>"; };
+		602BF9971AEA934E0022CAA1 /* pendrive.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pendrive.jpg; sourceTree = "<group>"; };
+		602BF99E1AEA93690022CAA1 /* awp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = awp.jpg; sourceTree = "<group>"; };
+		602BF9A11AEAA4980022CAA1 /* ProductStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductStore.h; sourceTree = "<group>"; };
+		602BF9A21AEAA4980022CAA1 /* ProductStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductStore.m; sourceTree = "<group>"; };
+		602BF9A51AEAA7500022CAA1 /* ProductCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCollectionViewCell.h; sourceTree = "<group>"; };
+		602BF9A61AEAA7500022CAA1 /* ProductCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCollectionViewCell.m; sourceTree = "<group>"; };
+		602BF9A71AEAA7500022CAA1 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		602BF9AE1AEAB7AA0022CAA1 /* ProductCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCollectionViewController.h; sourceTree = "<group>"; };
+		602BF9AF1AEAB7AA0022CAA1 /* ProductCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCollectionViewController.m; sourceTree = "<group>"; };
 		60FAAFBE1AEA6F8D001662F1 /* POCMobilePayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCMobilePayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FAAFC21AEA6F8E001662F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60FAAFC31AEA6F8E001662F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60FAAFC51AEA6F8E001662F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60FAAFC61AEA6F8E001662F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		60FAAFC81AEA6F8E001662F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		60FAAFC91AEA6F8E001662F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		60FAAFCC1AEA6F8E001662F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60FAAFCE1AEA6F8E001662F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		60FAAFD11AEA6F8E001662F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		60FAAFD71AEA6F8E001662F1 /* POCMobilePaymentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCMobilePaymentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FAAFDC1AEA6F8E001662F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60FAAFDD1AEA6F8E001662F1 /* POCMobilePaymentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POCMobilePaymentTests.m; sourceTree = "<group>"; };
+		60FAAFE91AEA70DD001662F1 /* StoneSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoneSDK.h; sourceTree = "<group>"; };
+		60FAAFEA1AEA70DD001662F1 /* libStoneSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libStoneSDK.a; sourceTree = "<group>"; };
+		60FAAFEC1AEA7391001662F1 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		60FAAFED1AEA7391001662F1 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		60FAAFEF1AEA74EE001662F1 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transaction.h; path = StoneSDK/Transaction.h; sourceTree = "<group>"; };
+		60FAAFF01AEA74EE001662F1 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transaction.m; path = StoneSDK/Transaction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60FAAFEB1AEA70DD001662F1 /* libStoneSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +86,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		602BF9941AEA76DA0022CAA1 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				60FAAFC51AEA6F8E001662F1 /* AppDelegate.h */,
+				60FAAFC61AEA6F8E001662F1 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		602BF99D1AEA93550022CAA1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				602BF9951AEA934E0022CAA1 /* tv.jpg */,
+				602BF9961AEA934E0022CAA1 /* secador.jpg */,
+				602BF99E1AEA93690022CAA1 /* awp.jpg */,
+				602BF9971AEA934E0022CAA1 /* pendrive.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		602BF9A01AEAA4890022CAA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				60FAAFEF1AEA74EE001662F1 /* Transaction.h */,
+				60FAAFF01AEA74EE001662F1 /* Transaction.m */,
+				60FAAFEC1AEA7391001662F1 /* Product.h */,
+				60FAAFED1AEA7391001662F1 /* Product.m */,
+				602BF9A11AEAA4980022CAA1 /* ProductStore.h */,
+				602BF9A21AEAA4980022CAA1 /* ProductStore.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		602BF9A41AEAA7330022CAA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				602BF9A51AEAA7500022CAA1 /* ProductCollectionViewCell.h */,
+				602BF9A61AEAA7500022CAA1 /* ProductCollectionViewCell.m */,
+				602BF9A71AEAA7500022CAA1 /* ProductCollectionViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		602BF9AA1AEAB7450022CAA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				602BF9AE1AEAB7AA0022CAA1 /* ProductCollectionViewController.h */,
+				602BF9AF1AEAB7AA0022CAA1 /* ProductCollectionViewController.m */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		60FAAFB51AEA6F8D001662F1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +160,13 @@
 		60FAAFC01AEA6F8D001662F1 /* POCMobilePayment */ = {
 			isa = PBXGroup;
 			children = (
-				60FAAFC51AEA6F8E001662F1 /* AppDelegate.h */,
-				60FAAFC61AEA6F8E001662F1 /* AppDelegate.m */,
-				60FAAFC81AEA6F8E001662F1 /* ViewController.h */,
-				60FAAFC91AEA6F8E001662F1 /* ViewController.m */,
-				60FAAFCB1AEA6F8E001662F1 /* Main.storyboard */,
+				602BF9AA1AEAB7450022CAA1 /* Controller */,
+				602BF9A41AEAA7330022CAA1 /* Views */,
+				60FAAFE71AEA70DD001662F1 /* StoneSDK */,
+				602BF9A01AEAA4890022CAA1 /* Models */,
+				602BF99D1AEA93550022CAA1 /* Images */,
+				602BF9941AEA76DA0022CAA1 /* App Delegate */,
 				60FAAFCE1AEA6F8E001662F1 /* Images.xcassets */,
-				60FAAFD01AEA6F8E001662F1 /* LaunchScreen.xib */,
 				60FAAFC11AEA6F8D001662F1 /* Supporting Files */,
 			);
 			path = POCMobilePayment;
@@ -96,6 +175,8 @@
 		60FAAFC11AEA6F8D001662F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60FAAFD01AEA6F8E001662F1 /* LaunchScreen.xib */,
+				60FAAFCB1AEA6F8E001662F1 /* Main.storyboard */,
 				60FAAFC21AEA6F8E001662F1 /* Info.plist */,
 				60FAAFC31AEA6F8E001662F1 /* main.m */,
 			);
@@ -117,6 +198,23 @@
 				60FAAFDC1AEA6F8E001662F1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FAAFE71AEA70DD001662F1 /* StoneSDK */ = {
+			isa = PBXGroup;
+			children = (
+				60FAAFE81AEA70DD001662F1 /* Header */,
+				60FAAFEA1AEA70DD001662F1 /* libStoneSDK.a */,
+			);
+			path = StoneSDK;
+			sourceTree = "<group>";
+		};
+		60FAAFE81AEA70DD001662F1 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				60FAAFE91AEA70DD001662F1 /* StoneSDK.h */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +297,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602BF99B1AEA934E0022CAA1 /* pendrive.jpg in Resources */,
 				60FAAFCD1AEA6F8E001662F1 /* Main.storyboard in Resources */,
 				60FAAFD21AEA6F8E001662F1 /* LaunchScreen.xib in Resources */,
 				60FAAFCF1AEA6F8E001662F1 /* Images.xcassets in Resources */,
+				602BF99A1AEA934E0022CAA1 /* secador.jpg in Resources */,
+				602BF99F1AEA93690022CAA1 /* awp.jpg in Resources */,
+				602BF9A91AEAA7500022CAA1 /* ProductCollectionViewCell.xib in Resources */,
+				602BF9991AEA934E0022CAA1 /* tv.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +322,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60FAAFCA1AEA6F8E001662F1 /* ViewController.m in Sources */,
+				60FAAFEE1AEA7391001662F1 /* Product.m in Sources */,
 				60FAAFC71AEA6F8E001662F1 /* AppDelegate.m in Sources */,
+				602BF9A31AEAA4980022CAA1 /* ProductStore.m in Sources */,
+				60FAAFF11AEA74EE001662F1 /* Transaction.m in Sources */,
+				602BF9A81AEAA7500022CAA1 /* ProductCollectionViewCell.m in Sources */,
+				602BF9B01AEAB7AA0022CAA1 /* ProductCollectionViewController.m in Sources */,
 				60FAAFC41AEA6F8E001662F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -348,7 +455,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = POCMobilePayment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/POCMobilePayment/StoneSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -358,7 +470,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = POCMobilePayment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/POCMobilePayment/StoneSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -416,6 +533,7 @@
 				60FAAFE31AEA6F8E001662F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60FAAFE41AEA6F8E001662F1 /* Build configuration list for PBXNativeTarget "POCMobilePaymentTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +542,7 @@
 				60FAAFE61AEA6F8E001662F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
